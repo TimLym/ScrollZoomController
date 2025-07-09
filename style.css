@@ -7,8 +7,8 @@
 }
 
 .item.active {
-    opacity: 1;              /* 只有活動項目可見 */
-    visibility: visible;     /* 只有活動項目顯示 */
+    opacity: 1;              /* 只有1個item可見 */
+    visibility: visible;     
 }
 
 .topbar-content {

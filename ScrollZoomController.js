@@ -162,8 +162,9 @@ class ScrollZoomController {
         
         return minOpacity + (maxOpacity - minOpacity) * normalizedScale;
     }
-    
-    // 添加新項目的方法（用於動態擴展）
+
+    // 以下方法目前沒用到，如果需要在頁面跟使用者互動的話，可以用到的方法(否則目前已寫死5個在html)
+    // 添加新項目的方法
     addItem(content) {
         const newItem = document.createElement('div');
         newItem.className = 'item';
